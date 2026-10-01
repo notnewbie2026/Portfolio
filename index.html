@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vino | Power BI & AI Solutions</title>
+  <meta name="description" content="Power BI dashboards, reporting automation, and practical AI tools for small and growing businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Vino<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="btn btn-small">Hire me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Power BI Developer · AI Solutions Builder</p>
+          <h1>I turn messy business data into <span class="accent">clear dashboards</span> and <span class="accent">smart AI tools</span>.</h1>
+          <p class="lead">
+            I help small and growing businesses stop drowning in spreadsheets. I build
+            Power BI dashboards that update on their own, and AI tools that answer
+            questions, read documents, and write reports for you.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">See my work</a>
+            <a href="#contact" class="btn btn-ghost">Let's talk</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="kpi-grid">
+            <div class="kpi"><span>Revenue</span><strong>₱1.24M</strong><em class="up">▲ 12%</em></div>
+            <div class="kpi"><span>Net profit</span><strong>₱318K</strong><em class="up">▲ 8%</em></div>
+            <div class="kpi"><span>Orders</span><strong>2,481</strong><em class="up">▲ 5%</em></div>
+            <div class="kpi"><span>Low stock</span><strong>7</strong><em class="down">needs reorder</em></div>
+          </div>
+          <div class="bars">
+            <i style="--h:45%"></i><i style="--h:62%"></i><i style="--h:55%"></i><i style="--h:78%"></i>
+            <i style="--h:70%"></i><i style="--h:88%"></i><i style="--h:95%"></i>
+          </div>
+          <div class="chat">
+            <p class="q">Which branch had the lowest sales last month?</p>
+            <p class="a">Branch C, at ₱182K. That's 23% below average, mostly because beverage sales fell.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">What I do</p>
+        <h2>Services</h2>
+        <div class="cards-3">
+          <article class="card">
+            <div class="icon">📊</div>
+            <h3>Power BI Dashboards</h3>
+            <p>Sales, inventory, finance, and HR dashboards built around the questions you actually ask every week.</p>
+            <ul>
+              <li>Data modeling and DAX</li>
+              <li>Excel / Google Sheets / SQL sources</li>
+              <li>Mobile-friendly report layouts</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Reporting Automation</h3>
+            <p>No more copy-pasting. Your data flows into your reports on its own, on a schedule.</p>
+            <ul>
+              <li>Scheduled refresh and pipelines</li>
+              <li>Python and Power Automate flows</li>
+              <li>Monthly maintenance retainers</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon">🤖</div>
+            <h3>AI Solutions</h3>
+            <p>Practical AI tools that save your team hours, working alongside the systems you already have.</p>
+            <ul>
+              <li>"Ask your data" chat assistants</li>
+              <li>Invoice and receipt extraction</li>
+              <li>AI-written weekly business summaries</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects</h2>
+
+        <div class="filters" role="tablist">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="bi">Dashboards</button>
+          <button class="chip" data-filter="ai">AI Solutions</button>
+        </div>
+
+        <!-- Featured: Online Seller Toolkit -->
+        <article class="project featured" data-cat="bi">
+          <div class="project-media">
+            <img src="assets/seller-toolkit/dashboard.png" alt="Online Seller Toolkit dashboard showing revenue, profit, orders and best sellers" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="tags"><span class="tag">Excel</span><span class="tag">Google Sheets</span><span class="tag">Dashboard</span><span class="status live">Shipped</span></div>
+            <h3>Online Seller Toolkit</h3>
+            <p class="subtitle">An all-in-one business tracker for Shopee, TikTok Shop, and Lazada sellers</p>
+            <dl class="case">
+              <dt>Problem</dt>
+              <dd>Online sellers track orders across three platforms, each with its own fees. Most never know their real profit after fees, shipping, and expenses.</dd>
+              <dt>Solution</dt>
+              <dd>A single workbook that connects inventory, order log, income and expenses, and a live dashboard. Platform fees fill in automatically from settings, and the SKU dropdowns come straight from inventory.</dd>
+              <dt>Highlights</dt>
+              <dd>
+                <ul>
+                  <li>8 live KPIs: revenue, net profit, average order value, platform fees, and more</li>
+                  <li>Low-stock alerts and a top 5 best sellers leaderboard</li>
+                  <li>Revenue by platform, orders by status, expense breakdown, and monthly trend charts</li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="thumbs">
+              <a href="assets/seller-toolkit/inventory.png" target="_blank"><img src="assets/seller-toolkit/inventory.png" alt="Inventory tracker preview" loading="lazy"></a>
+              <a href="assets/seller-toolkit/order-log.png" target="_blank"><img src="assets/seller-toolkit/order-log.png" alt="Order log preview" loading="lazy"></a>
+              <a href="assets/seller-toolkit/cover.png" target="_blank"><img src="assets/seller-toolkit/cover.png" alt="Toolkit cover" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <!-- TODO: replace placeholder visuals with screenshots once each project is built -->
+          <article class="project" data-cat="bi">
+            <div class="project-media placeholder ph-bi"><span>Power BI</span></div>
+            <div class="project-body">
+              <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="status wip">In progress</span></div>
+              <h3>Multi-Branch Sales & Inventory Analytics</h3>
+              <p>A Power BI report for a retail chain: sales by branch and product, margin analysis, stock-out risk, and month-over-month trends, with drill-through down to each transaction.</p>
+            </div>
+          </article>
+
+          <article class="project" data-cat="ai">
+            <div class="project-media placeholder ph-ai"><span>“Ask your data”</span></div>
+            <div class="project-body">
+              <div class="tags"><span class="tag">AI</span><span class="tag">Python</span><span class="tag">LLM</span><span class="status wip">In progress</span></div>
+              <h3>Ask Your Data Assistant</h3>
+              <p>A chat assistant that answers business questions in plain English or Filipino, straight from sales data. For example: “Which product dropped the most this quarter?”</p>
+            </div>
+          </article>
+
+          <article class="project" data-cat="ai">
+            <div class="project-media placeholder ph-doc"><span>Invoice → Excel</span></div>
+            <div class="project-body">
+              <div class="tags"><span class="tag">AI</span><span class="tag">Vision</span><span class="tag">Automation</span><span class="status wip">In progress</span></div>
+              <h3>Invoice & Receipt Extractor</h3>
+              <p>Upload photos of receipts or supplier invoices and get clean, structured rows in Excel, ready to load into a dashboard. No more manual encoding.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section">
+      <div class="container">
+        <p class="eyebrow">How we'll work</p>
+        <h2>Simple, transparent process</h2>
+        <ol class="steps">
+          <li><span>01</span><h3>Discovery call</h3><p>We talk about your business, your data, and the decisions you want to make faster.</p></li>
+          <li><span>02</span><h3>Prototype</h3><p>You get a working first version within days, not weeks, so you can give feedback early.</p></li>
+          <li><span>03</span><h3>Build & hand-off</h3><p>I polish it, connect your live data, and walk your team through how to use it.</p></li>
+          <li><span>04</span><h3>Ongoing support</h3><p>Optional monthly plan for updates, new reports, and keeping everything running smoothly.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-cta">
+      <div class="container cta-inner">
+        <h2>Got data that's not working for you yet?</h2>
+        <p>Tell me what you're tracking and what you wish you knew. I'll reply within 24 hours with ideas, no strings attached.</p>
+        <div class="hero-cta center">
+          <!-- TODO: replace # with your real profile links -->
+          <a href="#" class="btn btn-ghost">LinkedIn</a>
+          <a href="#" class="btn btn-ghost">Upwork</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Vino · Power BI & AI Solutions · Philippines 🇵🇭</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        const f = chip.dataset.filter;
+        document.querySelectorAll('.project').forEach(p => {
+          p.hidden = f !== 'all' && p.dataset.cat !== f;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
